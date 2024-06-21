@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu
+        {
+            height:100px;
+            background-color: red;
+            display: flex;
+        }
+        .banner
+        {
+            height:350px;
+            background-color: greenyellow;
+        }
+        .message
+        {
+            height:300px;
+            background-color: #01bede12;
+        }
+        .team
+        {
+            height:400px;
+            background-color: #51a7bb;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .teammember{
+            text-align: center;
+            background-color: #06070208;
+            width: 270px;;
+        }
+        .teammember>img{
+            height:200px;
+            width:200px;
+            border-radius: 50%;
+            border:5px solid wheat;
+        }
+        .footer
+        {
+            height:50px;
+            background-color: #0182ac;
+            color:white;
+            font-size:18px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        .ms1
+        {
+            width: 20%;
+    background-image: url(../images/logo.png);
+    height: 100px;
+    background-size: 87% 98%;
+        }
+        .ms2
+        {
+            width:80%;
+            height: 100px;
+            background-color:#0182ac;
+        }
+        .ms2>ul
+        {
+            list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    margin: 0;
+        }
+        .ms2>ul>li
+        {
+            height:100px;
+            box-sizing: border-box;
+            padding-top:40px;
+            width: 150px;
+            text-align: center;
+        }
+        .ms2>ul>li:hover
+        {
+            background-color: #fed501;
+        }
+        li>a
+        {
+            color: white;
+    font-size: 20px;
+    text-decoration: none;
+        }
+        .banner
+        {
+            background-image: url('../images/banner.jpg');
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+         .banner>h1{
+            color:#fed501;
+            font-size:65px;
+        }
+        .message{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .message1
+        {
+            width: 20%;
+            height:200px;
+            background-image: url('../images/boy1.png');
+            background-size: cover;
+        }
+        .message2
+        {
+            width:80%;
+            font-size:18px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="menu">
+        <div class="ms1"></div>
+        <div class="ms2">
+            <ul>
+                <li><a href="#">Menu Item</a></li>
+                <li><a href="#">Menu Item</a></li>
+
+                <li><a href="#">Menu Item</a></li>
+                <li><a href="#">Menu Item</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="banner">
+        <h1> ABC Intotech </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Ducimus odit exercitationem itaque dolorem explicabo magni cumque quod quis debitis deleniti aperiam nihil sit, asperiores eveniet doloribus beatae. Quibusdam, eius eligendi.
+        </p>
+    </div>
+    <h1 style="text-align:center ;">Who we are </h1>
+    <div class="message">
+        <div class="message1"></div>
+        <div class="message2">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, eius et, tempore nemo cupiditate itaque nisi repellendus fugit eveniet iusto exercitationem nihil officiis ad nobis! Optio consequuntur consequatur illum laboriosam.
+            </p>
+        </div>
+    </div>
+
+    <h1 style="text-align:center ;">Our Team </h1>
+
+    <div class="team">
+        <div class="teammember">
+            <img src="../images/boy2.png" alt="">
+            <h3>John Capner</h3>
+            <p>Senior s/w developer</p>
+        </div>
+        <div class="teammember">
+            <img src="../images/boy3.jpg" alt="">
+            <h3>John Capner</h3>
+            <p>Senior s/w developer</p>
+        </div>
+        <div class="teammember">
+            <img src="../images/boy4.png" alt="">
+            <h3>John Capner</h3>
+            <p>Senior s/w developer</p>
+        </div>
+        <div class="teammember">
+            <img src="../images/boy2.png" alt="">
+            <h3>John Capner</h3>
+            <p>Senior s/w developer</p>
+        </div>
+    </div>
+    <div class="footer">
+Design and Developed by : Promise Academy
+    </div>
+</body>
+</html>
